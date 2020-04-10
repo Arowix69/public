@@ -20,13 +20,12 @@ Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BackgroundTransparency = 0.500
 Frame.Position = UDim2.new(0.498735785, -166, 0.996314526, -247)
 Frame.Size = UDim2.new(0, 335, 0, 250)
-Frame.Visible = true
 
 ImageLabel.Parent = Frame
 ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 ImageLabel.Position = UDim2.new(0.268656731, 0, 0, 0)
 ImageLabel.Size = UDim2.new(0, 154, 0, 154)
-ImageLabel.Image = "rbxassetid://4882123197" -- Replace the current asset id (4882123197) to the decal id you have.
+ImageLabel.Image = "http://www.roblox.com/asset/?id=4882382456"
 
 TextLabel.Parent = Frame
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -42,7 +41,7 @@ TextLabel.TextWrapped = true
 
 -- Scripts:
 
-local function ZRJRXG_fake_script() -- Frame.LocalScript 
+local function QIRHB_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	
@@ -54,14 +53,15 @@ local function ZRJRXG_fake_script() -- Frame.LocalScript
 	
 	
 end
-coroutine.wrap(ZRJRXG_fake_script)()
-local function YURFQU_fake_script() -- TextLabel.LocalScript 
+coroutine.wrap(QIRHB_fake_script)()
+local function VXZAYPA_fake_script() -- TextLabel.LocalScript 
 	local script = Instance.new('LocalScript', TextLabel)
 
 	scriptParent = script.Parent
 	local Strings = {"E", "We've been expecting you.", "So you are a Arowix fan huh?", "Hey, Can you not.", "Bruh.", "Get noob.", "Yes, This is a GUI.", "Do you like my sonic rings?"}
 	local st = Strings[math.random(1, #Strings)]
 	---------------------------
+		
 	scriptParent.Text = (st)
 end
-coroutine.wrap(YURFQU_fake_script)()
+coroutine.wrap(VXZAYPA_fake_script)()
